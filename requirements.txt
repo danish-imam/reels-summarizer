@@ -1,0 +1,22 @@
+# Web framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.6
+
+# Pipeline
+openai-whisper>=20231117
+pydub>=0.25.1
+sumy>=0.11.0
+yt-dlp>=2024.1.0
+
+# Optional: Google Gemini for better summaries (free tier at aistudio.google.com)
+# google-generativeai>=0.3.0
+
+# Config & HTTP
+python-dotenv>=1.0.0
+httpx>=0.26.0
+certifi>=2024.0.0
+
+# Dev
+pytest>=7.4.0
